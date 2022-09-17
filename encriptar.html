@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Enciptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <main class="tarjeta1">
+            <section>
+        
+                <textarea class="caja-de-texto" id="texto1" placeholder="Ingrese el texto aqui"></textarea>
+                <p id="texto-informativo"class="aviso">Solo letras minúsculas y sin acentos</p>
+                <img id="img-aviso" class="aviso" src="Imagenes-encriptador/aviso.png">
+                <rect></rect>
+                <textarea class="resultado" id="resultado" placeholder="Esperando tu texto..." readonly></textarea>
+           
+            </section>
+            <section>
+                <button type="button" onclick="encriptar()" id="boton-encriptar" class="posicion-botones">Encriptar</button>
+                <button type="button" onclick="desencriptar()" id="boton-desencriptar" class="posicion-botones">Desencriptar</button>
+                <button  type="button" onclick="copiar()" id="boton-copiar" class="posicion-botones">Copiar</button>
+            
+            </section>
+        
+        </main>
+    
+    </body>
+        <script src="script.js"></script>
+    
+</html>
+    

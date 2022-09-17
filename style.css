@@ -1,0 +1,155 @@
+html{
+    background: #F3F5FC;
+}
+.caja-de-texto{
+    position: absolute;
+    width: 577px;
+    height: 650px;
+    left: 240px;
+    top: 168px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;   
+    color: #0A3871;
+    background: #F3F5FC;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+#texto-informativo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 0 20px;
+}
+
+#img-aviso{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+
+.resultado{
+    position: absolute;
+    width: 450px;
+    height: 781px;
+    left: 1032px;
+    top: 72px;
+    border: none;
+    /*Valores de las letras*/
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    text-align: center;
+    
+}
+
+rect{
+    position: absolute;
+    width: 510px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background-color: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.posicion-botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+#boton-encriptar{
+    /*Tamaño del boton*/
+    width: 328px;
+    height: 67px;
+    /*Diseño y color del boton*/
+    background: #0A3871;
+    border-radius: 24px;
+    /*Color,tamaño y alineacion del texto*/
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 0.20s all;
+}
+
+#boton-encriptar:active{
+    transform: scale(1.1); 
+}
+
+#boton-desencriptar{
+    /*Tamaño del boton*/
+    width: 328px;
+    height: 67px;
+    /*Diseño y color del boton*/
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /*Color,tamaño y alineacion del texto*/
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    left: 580px;
+    transition: 0.20s all;
+}
+
+#boton-desencriptar:active{
+    transform: scale(1.1); 
+}
+
+#boton-copiar{
+    /*Tamaño del boton*/
+    width: 328px;
+    height: 67px;
+    /*Diseño y color del boton*/
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /*Color,tamaño y alineacion del texto*/
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    left: 1100px;
+    transition: 0.20s all;
+}
+
+#boton-copiar:active{
+    border-color:#088c19;
+    transform: scale(1.1); 
+}
+
+
